@@ -1,0 +1,6 @@
+version: 1
+name: Retail banking
+apis:
+  - description: apis/retail-banking.openapi.yaml
+    overlays:
+      - recommendations/retail-banking.recommendations.yaml
