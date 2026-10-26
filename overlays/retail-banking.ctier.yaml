@@ -1,0 +1,16 @@
+overlay: "1.1.0"
+info:
+  title: "retail-banking.openapi.yaml: consequence tiers"
+  version: "1"
+actions:
+  - target: "$.paths['/accounts/{accountId}/statements/export'].post['x-ctier-tier', 'x-ctier-criteria', 'x-ctier-recommended-at']"
+    remove: true
+  - target: "$.paths['/accounts/{accountId}/statements/export'].post"
+    update:
+      x-ctier-criteria:
+        reversibility: "not-applicable"
+        blast-radius: "single-customer"
+        data-sensitivity: "regulated"
+        compliance-trigger: "adjacent"
+        idempotency: "unsafe"
+      x-ctier-status: "declared"
