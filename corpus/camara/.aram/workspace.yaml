@@ -1,0 +1,23 @@
+# The Aram workspace: each API's description, the overlays composed over it
+# in order, and its recommendation set. Paths are relative to this folder's parent.
+version: 1
+name: "CAMARA network APIs"
+apis:
+  - description: "apis/geofencing-subscriptions.openapi.yaml"
+    overlays: []
+  - description: "apis/location-retrieval.openapi.yaml"
+    overlays: []
+  - description: "apis/location-verification.openapi.yaml"
+    overlays: []
+  - description: "apis/number-verification.openapi.yaml"
+    overlays: []
+  - description: "apis/qos-profiles.openapi.yaml"
+    overlays: []
+  - description: "apis/qos-provisioning.openapi.yaml"
+    overlays: []
+  - description: "apis/quality-on-demand.openapi.yaml"
+    overlays: []
+  - description: "apis/sim-swap-subscriptions.openapi.yaml"
+    overlays: []
+  - description: "apis/sim-swap.openapi.yaml"
+    overlays: []
