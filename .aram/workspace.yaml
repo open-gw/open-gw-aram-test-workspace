@@ -4,3 +4,4 @@ apis:
   - description: apis/retail-banking.openapi.yaml
     overlays:
       - recommendations/retail-banking.recommendations.yaml
+      - overlays/retail-banking.ctier.yaml
