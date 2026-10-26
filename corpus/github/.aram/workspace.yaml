@@ -1,0 +1,5 @@
+version: 1
+name: GitHub REST
+apis:
+  - description: apis/github.openapi.yaml
+    overlays: []
