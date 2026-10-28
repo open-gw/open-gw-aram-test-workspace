@@ -1,0 +1,11 @@
+# The Aram workspace: each API's description, the overlays composed over it
+# in order, and its recommendation set. Paths are relative to this folder's parent.
+version: 1
+name: "Australia Consumer Data Right"
+apis:
+  - description: "apis/cds-banking.openapi.json"
+    overlays: []
+  - description: "apis/cds-energy.openapi.json"
+    overlays: []
+  - description: "apis/cds-telco.openapi.json"
+    overlays: []

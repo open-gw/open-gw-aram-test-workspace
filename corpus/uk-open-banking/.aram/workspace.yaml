@@ -1,0 +1,13 @@
+# The Aram workspace: each API's description, the overlays composed over it
+# in order, and its recommendation set. Paths are relative to this folder's parent.
+version: 1
+name: "UK Open Banking"
+apis:
+  - description: "apis/account-info.openapi.json"
+    overlays: []
+  - description: "apis/confirmation-funds.openapi.json"
+    overlays: []
+  - description: "apis/payment-initiation.openapi.json"
+    overlays: []
+  - description: "apis/vrp.openapi.json"
+    overlays: []

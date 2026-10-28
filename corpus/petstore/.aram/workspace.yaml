@@ -1,0 +1,5 @@
+version: 1
+name: Swagger Petstore
+apis:
+  - description: apis/petstore.openapi.yaml
+    overlays: []

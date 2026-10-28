@@ -1,0 +1,5 @@
+version: 1
+name: US National Weather Service
+apis:
+  - description: apis/weather-gov.openapi.json
+    overlays: []
